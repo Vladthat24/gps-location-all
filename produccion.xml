@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+    <!-- ============================================== -->
+    <!--         CONFIGURACIÓN DE PRODUCCIÓN            -->
+    <!-- ============================================== -->
+
+    <!-- RUTA DEL FRONTEND -->
+    <!-- En Linux (producción), es mejor usar rutas absolutas para evitar problemas con systemd -->
+    <entry key='web.path'>/opt/traccar/traccar-web/build</entry>
+
+    <!-- PUERTO WEB -->
+    <!-- El estándar es 8082. En producción real, suele ponerse detrás de un Proxy (como Nginx) en el puerto 80/443 -->
+    <entry key='web.port'>8082</entry>
+
+    <!-- PROTOCOLOS -->
+    <!-- Por seguridad y ahorro de memoria, habilita SOLO los que necesites -->
+    <entry key='protocols.enable'>osmand,http</entry>
+    
+    <!-- RED -->
+    <!-- Escuchar en todas las interfaces para aceptar conexiones externas -->
+    <entry key='server.address'>0.0.0.0</entry>
+
+    <!-- ============================================== -->
+    <!--               LOGS Y MONITOREO                 -->
+    <!-- ============================================== -->
+    <entry key='logger.level'>info</entry>
+    <entry key='logger.file'>/opt/traccar/logs/tracker-server.log</entry>
+    <!-- Retener logs por menos tiempo para que el disco (que en la capa gratuita es pequeño) no se llene -->
+    <entry key='logger.history'>7</entry>
+
+    <!-- ============================================== -->
+    <!--              BASE DE DATOS                     -->
+    <!-- ============================================== -->
+    <!-- NOTA: Para producción real, lo ideal es MySQL o PostgreSQL. 
+         Si mantienes la e2-micro de Google Cloud, MySQL puede consumir mucha RAM, 
+         por lo que dejamos H2 como activo, pero listo para escalar. -->
+
+    <!-- [OPCIÓN 1] POSTGRESQL (Recomendado para producción pesada) -->
+    <!--
+    <entry key='database.driver'>org.postgresql.Driver</entry>
+    <entry key='database.url'>jdbc:postgresql://127.0.0.1:5432/traccar</entry>
+    <entry key='database.user'>traccar</entry>
+    <entry key='database.password'>tu_contraseña_segura</entry>
+    -->
+
+    <!-- [OPCIÓN 2] MySQL / MariaDB -->
+    <!--
+    <entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
+    <entry key='database.url'>jdbc:mysql://127.0.0.1:3306/traccar?serverTimezone=UTC&amp;useSSL=false&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8&amp;sessionVariables=sql_mode=''</entry>
+    <entry key='database.user'>traccar</entry>
+    <entry key='database.password'>tu_contraseña_segura</entry>
+    -->
+
+    <!-- [OPCIÓN 3] H2 (Bajo costo / e2-micro). Rutas absolutas para Linux. -->
+    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.url'>jdbc:h2:/opt/traccar/database</entry>
+    <entry key='database.user'>sa</entry>
+    <entry key='database.password'></entry>
+
+    <!-- Optimización del pool de conexiones para no saturar la BD -->
+    <entry key='database.maximumPoolSize'>10</entry>
+
+    <!-- ============================================== -->
+    <!--           FILTROS Y OPTIMIZACIONES             -->
+    <!-- ============================================== -->
+    <!-- Evitar guardar puntos estáticos repetidos (ahorra mucho espacio en disco y BD a largo plazo) -->
+    <entry key='filter.enable'>true</entry>
+    <entry key='filter.distance'>10</entry> <!-- Ignorar si se movió menos de 10 metros -->
+    <entry key='filter.zero'>true</entry> <!-- Ignorar coordenadas (0,0) erróneas -->
+
+</properties>
