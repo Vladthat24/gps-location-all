@@ -1,0 +1,183 @@
+2026-09-19 12:57:11  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2026-09-19 12:57:11  INFO: Java runtime name: Java HotSpot(TM) 64-Bit Server VM vendor: Oracle Corporation version: 21.0.8+12-LTS-250
+2026-09-19 12:57:11  INFO: Memory limit heap: 6104mb non-heap: 0mb
+2026-09-19 12:57:11  INFO: Character encoding: UTF-8
+2026-09-19 12:57:11  INFO: Version: 6.15.3
+2026-09-19 12:57:11  INFO: Starting server...
+2026-09-19 12:57:11  INFO: HikariPool-1 - Starting...
+2026-09-19 12:57:11  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2026-09-19 12:57:11  INFO: HikariPool-1 - Start completed.
+2026-09-19 12:57:11  INFO: Set default schema name to PUBLIC
+2026-09-19 12:57:12  INFO: Successfully acquired change log lock
+2026-09-19 12:57:12  INFO: Clearing database change log checksums for database h2
+2026-09-19 12:57:12  INFO: Successfully released change log lock
+2026-09-19 12:57:12  INFO: Command execution complete
+2026-09-19 12:57:12  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:57:12  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:57:12  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:57:12  INFO: UPDATE SUMMARY
+2026-09-19 12:57:12  INFO: Run:                          0
+2026-09-19 12:57:12  INFO: Previously run:              35
+2026-09-19 12:57:12  INFO: Filtered out:                 1
+2026-09-19 12:57:12  INFO: -------------------------------
+2026-09-19 12:57:12  INFO: Total change sets:           36
+2026-09-19 12:57:12  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-19 12:57:12  INFO: DBMS mismatch:                1
+2026-09-19 12:57:12  INFO: Update summary generated
+2026-09-19 12:57:12  INFO: Command execution complete
+2026-09-19 12:57:13  WARN: Port 5055 disabled due to conflict - Address already in use: bind - BindException (...)
+2026-09-19 12:57:13 ERROR: Main method error - D:\Proyectos\gps-fernton\traccar\traccar-web\modern\build - NoSuchFileException (... < WebServer:134 < *:97 < MainModule:221 < <gener:-1 < *:-1 < ... < Main:124 < ...)
+2026-09-19 12:58:33  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2026-09-19 12:58:33  INFO: Java runtime name: Java HotSpot(TM) 64-Bit Server VM vendor: Oracle Corporation version: 21.0.8+12-LTS-250
+2026-09-19 12:58:33  INFO: Memory limit heap: 6104mb non-heap: 0mb
+2026-09-19 12:58:33  INFO: Character encoding: UTF-8
+2026-09-19 12:58:33  INFO: Version: 6.15.3
+2026-09-19 12:58:33  INFO: Starting server...
+2026-09-19 12:58:33  INFO: HikariPool-1 - Starting...
+2026-09-19 12:58:33  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2026-09-19 12:58:33  INFO: HikariPool-1 - Start completed.
+2026-09-19 12:58:33  INFO: Set default schema name to PUBLIC
+2026-09-19 12:58:34  INFO: Successfully acquired change log lock
+2026-09-19 12:58:34  INFO: Clearing database change log checksums for database h2
+2026-09-19 12:58:34  INFO: Successfully released change log lock
+2026-09-19 12:58:34  INFO: Command execution complete
+2026-09-19 12:58:34  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:58:34  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:58:35  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 12:58:35  INFO: UPDATE SUMMARY
+2026-09-19 12:58:35  INFO: Run:                          0
+2026-09-19 12:58:35  INFO: Previously run:              35
+2026-09-19 12:58:35  INFO: Filtered out:                 1
+2026-09-19 12:58:35  INFO: -------------------------------
+2026-09-19 12:58:35  INFO: Total change sets:           36
+2026-09-19 12:58:35  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-19 12:58:35  INFO: DBMS mismatch:                1
+2026-09-19 12:58:35  INFO: Update summary generated
+2026-09-19 12:58:35  INFO: Command execution complete
+2026-09-19 12:58:35  WARN: Port 5055 disabled due to conflict - Address already in use: bind - BindException (...)
+2026-09-19 12:58:35  INFO: jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 21.0.8+12-LTS-250
+2026-09-19 12:58:35  INFO: Session workerName=node0
+2026-09-19 12:58:35  INFO: Started oeje10s.ServletContextHandler@2df71be0{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@b841713{STARTED}}
+2026-09-19 12:58:36  INFO: Started oeje10s.ServletContextHandler@2df71be0{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@b841713{STARTED}}
+2026-09-19 12:58:36  INFO: Started oejs.ServerConnector@5386fd0{HTTP/1.1, (http/1.1)}{0.0.0.0:8085}
+2026-09-19 12:58:36  INFO: Started oejs.Server@51e0f2eb{STARTING}[12.1.12,sto=0] @638ms
+2026-09-19 13:03:40  INFO: login failed from: [0:0:0:0:0:0:0:1]
+2026-09-19 13:43:37  INFO: Stopping server...
+2026-09-19 13:43:46  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2026-09-19 13:43:46  INFO: Java runtime name: Java HotSpot(TM) 64-Bit Server VM vendor: Oracle Corporation version: 21.0.8+12-LTS-250
+2026-09-19 13:43:46  INFO: Memory limit heap: 6104mb non-heap: 0mb
+2026-09-19 13:43:46  INFO: Character encoding: UTF-8
+2026-09-19 13:43:46  INFO: Version: 6.15.3
+2026-09-19 13:43:46  INFO: Starting server...
+2026-09-19 13:43:47  INFO: HikariPool-1 - Starting...
+2026-09-19 13:43:47  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2026-09-19 13:43:47  INFO: HikariPool-1 - Start completed.
+2026-09-19 13:43:47  INFO: Set default schema name to PUBLIC
+2026-09-19 13:43:47  INFO: Successfully acquired change log lock
+2026-09-19 13:43:47  INFO: Clearing database change log checksums for database h2
+2026-09-19 13:43:47  INFO: Successfully released change log lock
+2026-09-19 13:43:47  INFO: Command execution complete
+2026-09-19 13:43:48  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:43:48  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:43:48  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:43:48  INFO: UPDATE SUMMARY
+2026-09-19 13:43:48  INFO: Run:                          0
+2026-09-19 13:43:48  INFO: Previously run:              35
+2026-09-19 13:43:48  INFO: Filtered out:                 1
+2026-09-19 13:43:48  INFO: -------------------------------
+2026-09-19 13:43:48  INFO: Total change sets:           36
+2026-09-19 13:43:48  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-19 13:43:48  INFO: DBMS mismatch:                1
+2026-09-19 13:43:48  INFO: Update summary generated
+2026-09-19 13:43:48  INFO: Command execution complete
+2026-09-19 13:43:49  WARN: Port 5055 disabled due to conflict - Address already in use: bind - BindException (...)
+2026-09-19 13:43:49  INFO: jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 21.0.8+12-LTS-250
+2026-09-19 13:43:49  INFO: Session workerName=node0
+2026-09-19 13:43:49  INFO: Started oeje10s.ServletContextHandler@2be50bba{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@3514ac7d{STARTED}}
+2026-09-19 13:43:50  INFO: Started oeje10s.ServletContextHandler@2be50bba{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@3514ac7d{STARTED}}
+2026-09-19 13:43:50  INFO: Started oejs.ServerConnector@776a3365{HTTP/1.1, (http/1.1)}{0.0.0.0:8085}
+2026-09-19 13:43:50  INFO: Started oejs.Server@c0521e5{STARTING}[12.1.12,sto=0] @634ms
+2026-09-19 13:46:34  INFO: Stopping server...
+2026-09-19 13:46:59  INFO: Operating system name: Windows 11 version: 10.0 architecture: amd64
+2026-09-19 13:46:59  INFO: Java runtime name: Java HotSpot(TM) 64-Bit Server VM vendor: Oracle Corporation version: 21.0.8+12-LTS-250
+2026-09-19 13:46:59  INFO: Memory limit heap: 6104mb non-heap: 0mb
+2026-09-19 13:46:59  INFO: Character encoding: UTF-8
+2026-09-19 13:46:59  INFO: Version: 6.15.3
+2026-09-19 13:46:59  INFO: Starting server...
+2026-09-19 13:47:00  INFO: HikariPool-1 - Starting...
+2026-09-19 13:47:00  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./target/database user=SA
+2026-09-19 13:47:00  INFO: HikariPool-1 - Start completed.
+2026-09-19 13:47:00  INFO: Set default schema name to PUBLIC
+2026-09-19 13:47:00  INFO: Successfully acquired change log lock
+2026-09-19 13:47:00  INFO: Clearing database change log checksums for database h2
+2026-09-19 13:47:00  INFO: Successfully released change log lock
+2026-09-19 13:47:00  INFO: Command execution complete
+2026-09-19 13:47:01  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:47:01  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:47:01  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2026-09-19 13:47:01  INFO: UPDATE SUMMARY
+2026-09-19 13:47:01  INFO: Run:                          0
+2026-09-19 13:47:01  INFO: Previously run:              35
+2026-09-19 13:47:01  INFO: Filtered out:                 1
+2026-09-19 13:47:01  INFO: -------------------------------
+2026-09-19 13:47:01  INFO: Total change sets:           36
+2026-09-19 13:47:01  INFO: FILTERED CHANGE SETS SUMMARY
+2026-09-19 13:47:01  INFO: DBMS mismatch:                1
+2026-09-19 13:47:01  INFO: Update summary generated
+2026-09-19 13:47:01  INFO: Command execution complete
+2026-09-19 13:47:02  INFO: jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 21.0.8+12-LTS-250
+2026-09-19 13:47:02  INFO: Session workerName=node0
+2026-09-19 13:47:02  INFO: Started oeje10s.ServletContextHandler@2b9d4b0{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@4f541e67{STARTED}}
+2026-09-19 13:47:03  INFO: Started oeje10s.ServletContextHandler@2b9d4b0{ROOT,/,b=file:///D:/Proyectos/gps-fernton/traccar/traccar-web/build/,a=AVAILABLE,h=oeje10s.SessionHandler@4f541e67{STARTED}}
+2026-09-19 13:47:03  INFO: Started oejs.ServerConnector@5b6f3d0b{HTTP/1.1, (http/1.1)}{0.0.0.0:8085}
+2026-09-19 13:47:03  INFO: Started oejs.Server@8e77c5b{STARTING}[12.1.12,sto=0] @694ms
+2026-09-19 13:47:56  INFO: [Tb692628a] connected
+2026-09-19 13:47:56  INFO: [Tb692628a] disconnected
+2026-09-19 13:48:35  INFO: [Tdde89d9a] connected
+2026-09-19 13:48:35  INFO: [Tdde89d9a: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 126\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512004&lon=-76.9607733&timestamp=1789843712&accuracy=20.0&altitude=240.70001220703125&batt=70&charge=true
+2026-09-19 13:48:35  INFO: [Tdde89d9a: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:48:39  INFO: [Tdde89d9a] id: 60037204, time: 2026-09-19 13:48:32, lat: -12.15120, lon: -76.96077, course: 0.0, accuracy: 20.0
+2026-09-19 13:49:07  WARN: [Tdde89d9a] error - Connection reset - SocketException (...)
+2026-09-19 13:49:07  INFO: [Tdde89d9a] disconnected
+2026-09-19 13:51:55  INFO: [Tc282d739] connected
+2026-09-19 13:51:55  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 126\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.151201&lon=-76.9607711&timestamp=1789841913&accuracy=100.0&altitude=240.70001220703125&batt=52&charge=true
+2026-09-19 13:51:55  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 164\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512006&lon=-76.9607735&timestamp=1789841982&accuracy=88.03700256347656&altitude=240.70001220703125&speed=2.41&bearing=312.0&batt=53&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 127\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512006&lon=-76.9607735&timestamp=1789842148&accuracy=100.0&altitude=240.70001220703125&batt=54&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 152\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512004&lon=-76.9607727&timestamp=1789842261&accuracy=100.0&altitude=240.70001220703125&speed=2.41&bearing=312.0&batt=55&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 163\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1511325&lon=-76.9648016&timestamp=1789842350&accuracy=122.4000015258789&altitude=165.3000030517578&speed=2.41&bearing=312.0&batt=56&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 152\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.151205&lon=-76.9607605&timestamp=1789842360&accuracy=104.70999908447266&altitude=240.70001220703125&bearing=90.0&batt=56&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 127\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512026&lon=-76.9607689&timestamp=1789843455&accuracy=100.0&altitude=240.70001220703125&batt=67&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 149\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.15249&lon=-76.964126&timestamp=1789843540&accuracy=200.0&altitude=240.70001220703125&speed=2.41&bearing=312.0&batt=68&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 161\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.15119&lon=-76.9607673&timestamp=1789843550&accuracy=29.46299934387207&altitude=240.70001220703125&speed=2.52&bearing=90.0&batt=68&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 126\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512004&lon=-76.9607733&timestamp=1789843712&accuracy=20.0&altitude=240.70001220703125&batt=70&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand < 192.168.18.99] POST / HTTP/1.1\r\nAccept: */*\r\nUser-Agent: ktor-client\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\nContent-Length: 152\r\nHost: 192.168.18.28:5055\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\nid=60037204&lat=-12.1512004&lon=-76.9607733&timestamp=1789843917&accuracy=100.0&altitude=240.70001220703125&speed=2.41&bearing=312.0&batt=73&charge=true
+2026-09-19 13:51:56  INFO: [Tc282d739: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:18:33, lat: -12.15120, lon: -76.96077, course: 0.0, accuracy: 100.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:19:42, lat: -12.15120, lon: -76.96077, speed: 2.4, course: 312.0, accuracy: 88.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:22:28, lat: -12.15120, lon: -76.96077, course: 0.0, accuracy: 100.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:24:21, lat: -12.15120, lon: -76.96077, speed: 2.4, course: 312.0, accuracy: 100.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:25:50, lat: -12.15113, lon: -76.96480, speed: 2.4, course: 312.0, accuracy: 122.4
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:26:00, lat: -12.15121, lon: -76.96076, course: 90.0, accuracy: 104.7
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:44:15, lat: -12.15120, lon: -76.96077, course: 0.0, accuracy: 100.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:45:40, lat: -12.15249, lon: -76.96413, speed: 2.4, course: 312.0, accuracy: 200.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:45:50, lat: -12.15119, lon: -76.96077, speed: 2.5, course: 90.0, accuracy: 29.5
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:48:32, lat: -12.15120, lon: -76.96077, course: 0.0, accuracy: 20.0
+2026-09-19 13:51:59  INFO: [Tc282d739] id: 60037204, time: 2026-09-19 13:51:57, lat: -12.15120, lon: -76.96077, speed: 2.4, course: 312.0, accuracy: 100.0
+2026-09-19 13:52:07  WARN: [Tc282d739] error - Connection reset - SocketException (...)
+2026-09-19 13:52:07  INFO: [Tc282d739] disconnected
+2026-09-19 14:11:13  INFO: [T0ab19417] connected
+2026-09-19 14:11:13  INFO: [T0ab19417: osmand < 192.168.18.99] POST / HTTP/1.1\r\nuser-agent: Dart/3.13 (dart:io)\r\ncontent-type: application/x-www-form-urlencoded\r\ntransfer-encoding: chunked\r\naccept-encoding: gzip\r\nhost: 192.168.18.28:5055\r\n\r\nAE\r\nid=60037204&notificationToken=fqw5SUEKQZmznZN_yIzcQO%3AAPA91bGEu1s53Y5yrZ1rfV4L_MI3ZOikpExs8BOoH8C_1YgWLSbPH8-oiQS8VjvyjwrphJ01RiWwJtIia8h5pUh6oQX5OsQU7o9yH3C8L47p_JoWNn8CdH8\r\n0\r\n\r\n
+2026-09-19 14:11:13  INFO: [T0ab19417: osmand > 192.168.18.99] HTTP/1.1 200 OK\r\ncontent-length: 0\r\n\r\n
+2026-09-19 14:11:16  INFO: [T0ab19417] id: 60037204, time: 2026-09-19 13:51:57, lat: -12.15120, lon: -76.96077, speed: 2.4, course: 312.0, accuracy: 100.0
+2026-09-19 14:11:23  WARN: [T0ab19417] error - Connection reset - SocketException (...)
+2026-09-19 14:11:23  INFO: [T0ab19417] disconnected
